@@ -2351,69 +2351,7 @@ async def get_chatinfo(event):
             return None
     return chat_info
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@eag.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@gle.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@wal.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@aaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-@boy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
-async def get_users(event):
-    if event.sender_id in SMEX_USERS:
-        Nobi = event.text[11:]
-        flash = Nobi.lower()
-        restricted = ["@Chat_injector7h", "@Injector_7H", "@Xlr8Cheats_Chat"]
-        flax = await event.reply("__Inviting members __")
-        if flash in restricted:
-            await flax.edit("You can't Invite Members from there.")
-            await event.client.send_message(-1001731575931, "Sorry for inviting members from here.")
-            return
-        flashspam = await get_chatinfo(event)
-        chat = await event.get_chat()
-        if event.is_private:
-            return await.edit("`Sorry, Cant add users here`")
-        s = 0
-        f = 0
-        error = "None"
-        await flax.edit("**INVITING USERS !!**")
-        async for user in event.client.iter_participants(flashspam.full_chat.id):
-            try:
-                await event.client(
-                    InviteToChannelRequest(channel=chat, users=[user.id])
-                )
-                s += 1
-                await flax.edit(
-                    f"**INVITING USERS.. **\n\n**Invited :**  `{s}` users \n**Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
-            )
-            except Exception as e:
-                error = str(e)
-                f += 1
-        return await flax.edit(
-        f"**INVITING FINISHED** \n\n**Invited :**  `{s}` users \n**Failed :**  `{f}` users."
-    )
+
     
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
