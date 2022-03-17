@@ -1601,6 +1601,375 @@ async def ping(e):
         await event.edit(f" Zinda Hu!\n`{ms}` 𝗺𝘀\n           ⚔️ 𝙁𝙇𝘼𝙎𝙃 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
         
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.abuse")) 
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.abuse")) 
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.abuse")) 
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.abuse")) 
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.abuse")) 
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.abuse"))
+async def abuse(e):
+    usage = "**Module Name = Abuse**\n\nCommand:\n\n .gali <Username of User>\n\nit will continuously abuse until you restart! USE IT FOR FUN."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        flash = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bitxh = await e.get_reply_message()
+        if len(flash) == 1:
+            user = str(flash[0])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in flash:
+                text = f"I can't abuse @FLASH_7H's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                c = a.first_name
+                name = f"[{c}](tg://user?id={g})"
+                caption1 =f"{name} GAND FATT GYII KYA HIJRE KI OLAAD"
+                caption2 =f"{name} **RANDI KE PILLLE**"
+                caption3 =f" {name} 𝑪𝑯𝑯𝑯𝑯𝑯𝑼𝑼𝑼𝑼𝑼𝑫𝑫𝑫𝑫 𝑮𝒀𝑨𝑨𝑨𝑨𝑨𝑨𝑨 𝑳𝑶𝑽𝑽𝑽𝑽𝑽𝑫𝑫𝑬𝑬 𝑻𝑼𝑼𝑼𝑼"
+                caption4 =f" {name} 𝕋𝕖𝕣𝕚 𝕄𝕒𝕒 𝕂𝕚 𝕏𝕙𝕠𝕥 𝕓𝕒𝕕𝕙𝕧𝕖"
+                caption5 =f"{name} **ISKE MAAKI CHUTT LELO FREE FULL NIGHT**"
+                caption6 =f" {name} __TERE MAAKI CHUTT MASTT SOFT SOFT HE__ 🤤"
+                caption7 =f"# {name} TERE MAAKI CHUT ME MERAA LUNDD"
+                caption8 =f"{name} **RAANDD KAA PILLAAA**"
+                caption9 =f"{name} 𝙄𝙎𝙆𝙄 𝘽𝙃𝙀𝙉 𝙈𝙀𝙍𝘼 𝙇𝙐𝙉𝘿 𝘾𝙃𝙊𝙊𝙎𝙏𝙄𝙄 𝙃E"
+                caption10 =f"{name} __AGAYA SWADH__"
+                caption11 =f"{name} **TERI MAAA**"
+                caption12 =f"**MERE SE**"
+                caption13 =f"**Rozz CHUDTII**"
+                caption14 =f"__Haiii__"
+                caption15 =f"{name} TERE BHEN KO CHODU"
+                caption16 =f"🆃🅰🅿🅰"
+                caption17 =f"🆃🅰🅿"
+                caption18 =f"🆃🅰🅿🅰"
+                caption18 =f"🆃🅰🅿"
+                caption20 =f"__NON STOP__"
+                caption21 =f"{name} 𝗧𝗘𝗥𝗜 𝗠𝗔𝗔 𝗠𝗘𝗥𝗘 𝗟𝗨𝗡𝗗 𝗟𝗘 𝗡𝗔𝗖𝗛𝗧𝗜 𝗛𝗘"
+                caption22 =f"🤤"
+                caption23 =f"{name} __TERI MAA MST ARAAM DETI HE__🤤🤤"
+                caption24 =f"{name} __KE BHEN KI CHUT LELO FULL NIGHT FREEE__"
+                caption25 =f"{name} __KI BHEN RANDIII__"
+                caption26 =f"{name} __ISKE BHEN MST MARI RANDI__ 🤤🤤"
+                caption27 =f"😂🖕🤣"
+                caption28 =f"😂"
+                caption29 =f"__EK RUPAY KI PEPSI {name} KI NAANI SEXYY__"
+                caption30 =f"{name} **ISKI BHEN MERI PERSONAL HE MENE BOHOT CHODAA HE USKO__ \n\n __DM {name} FOR PERSONAL RANDI__"
+                flash = e.chat_id
+                async with e.client.action(flash, "typing"):
+                        await e.client.send_message(flash, caption1)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption2)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption3)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption4)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption5)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption6)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption7)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption8)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption9)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption10)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption11)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption12)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption13)
+                        await asyncio.sleep(0.4)
+                        await e.client.send_message(flash, caption14)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption15)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption16)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption17)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption18)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption19)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption20)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption21)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption22)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption23)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption24)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption25)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption26)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption27)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption28)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption29)
+                        await asyncio.sleep(0.3)
+                        await e.client.send_message(flash, caption30)
+                        await asyncio.sleep(0.3)
+
+        else:
+             await e.reply(usage)
+             
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.stats"))
+async def stats(event):
+   u = 0
+   g = 0
+   c = 0
+   bc = 0
+   b = 0
+   flash = ""
+   if event.sender_id in SMEX_USERS:    
+        await event.delete()
+        event = await event.reply("__Processing🇮🇳")
+       # await event.edit("`Processing..`")
+        dialogs = await event.client.get_dialogs(limit=None, ignore_migrated=True)
+        for d in dialogs:
+            currrent_entity = d.entity
+            if isinstance(currrent_entity, User):
+                if currrent_entity.bot:
+                    b += 1
+                else:
+                    u += 1
+            elif isinstance(currrent_entity, Chat):
+                g += 1
+            elif isinstance(currrent_entity, Channel):
+                if currrent_entity.broadcast:
+                    bc += 1
+                else:
+                    c += 1
+            else:
+                print(d)
+         
+        flash += f"🔻 **HERE IS YOUR FLASH-SPAM-BOTS STATS** 🔻\n\n"
+        flash += f"`Users:`\t**{u}**\n"
+        flash += f"`Groups:`\t**{g}**\n"
+        flash += f"`Super Groups:`\t**{c}**\n"
+        flash += f"`Channels:`\t**{bc}**\n"
+        flash += f"`Bots:`\t**{b}**"
+        await event.edit(flash)
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.addecho"))
+async def addecho(event):
+  usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **ECHO**\n\nCommand:\n\n `{hl}addecho <reply to a User>`"
+  if event.sender_id in SMEX_USERS:
+     if event.reply_to_msg_id is not None:
+            reply_msg = await event.get_reply_message()
+            user_id = reply_msg.sender_id
+            if int(user_id) in FlashX:
+                    text = f"I can't echo @FLASH_7H's Owner"
+                    await event.reply(text, parse_mode=None, link_preview=None )
+            elif int(user_id) in SMEX_USERS:
+                    text = f"This guy is a sudo user."
+                    await event.reply(text, parse_mode=None, link_preview=None )
+            else:
+                 chat_id = event.chat_id
+                 try:
+                     hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+                     hmm = Get(hmm)
+                     await event.client(hmm)
+                 except BaseException:
+                    pass
+                 if is_echo(user_id, chat_id):
+                     await event.reply("The user is already enabled with echo ")
+                     return
+                 addecho(user_id, chat_id)
+                 await event.reply("Echo activated On the user ✅")
+     else:
+          await event.reply(usage)
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.rmecho"))
+async def rmecho(event):
+  usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **ECHO**\n\nCommand:\n\n `{hl}rmecho <reply to a User>`"
+  if event.sender_id in SMEX_USERS:
+     if event.reply_to_msg_id is not None:
+            reply_msg = await event.get_reply_message()
+            user_id = reply_msg.sender_id
+            chat_id = event.chat_id
+            try:
+                hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+                hmm = Get(hmm)
+                await event.client(hmm)
+            except BaseException:
+                pass
+            if is_echo(user_id, chat_id):
+                remove_echo(user_id, chat_id)
+                await event.reply("Echo has been stopped for the user ☑️")
+            else:
+                await event.reply("The user is not activated with echo")
+     else:
+          await event.reply(usage)
+          
+          
+@idk.on(events.NewMessage(incoming=True))
+@ydk.on(events.NewMessage(incoming=True))
+@wdk.on(events.NewMessage(incoming=True))
+@hdk.on(events.NewMessage(incoming=True))
+@sdk.on(events.NewMessage(incoming=True))
+@adk.on(events.NewMessage(incoming=True))
+@bdk.on(events.NewMessage(incoming=True))
+@cdk.on(events.NewMessage(incoming=True))
+@edk.on(events.NewMessage(incoming=True))
+@ddk.on(events.NewMessage(incoming=True))
+@vkk.on(events.NewMessage(incoming=True))
+@kkk.on(events.NewMessage(incoming=True))
+@lkk.on(events.NewMessage(incoming=True))
+@mkk.on(events.NewMessage(incoming=True))
+@sid.on(events.NewMessage(incoming=True))
+@shy.on(events.NewMessage(incoming=True))
+@aan.on(events.NewMessage(incoming=True))
+@ake.on(events.NewMessage(incoming=True))
+@eel.on(events.NewMessage(incoming=True))
+@khu.on(events.NewMessage(incoming=True))
+@shi.on(events.NewMessage(incoming=True))
+@yaa.on(events.NewMessage(incoming=True))
+@dav.on(events.NewMessage(incoming=True))
+@raj.on(events.NewMessage(incoming=True))
+@put.on(events.NewMessage(incoming=True))
+@eag.on(events.NewMessage(incoming=True))
+@gle.on(events.NewMessage(incoming=True))
+@wal.on(events.NewMessage(incoming=True))
+@aaa.on(events.NewMessage(incoming=True))
+@boy.on(events.NewMessage(incoming=True))
+async def _(e):
+    if is_echo(e.sender_id, e.chat_id):
+        await asyncio.sleep(0.5)
+        try:
+            flash = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            flash = Get(flash)
+            await e.client(flash)
+        except BaseException:
+            pass
+        if e.message.text or e.message.sticker:
+            await e.reply(e.message)
+
+
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.setname"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.setname"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.setname"))
@@ -1648,7 +2017,252 @@ async def setname(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
             
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.dm"))
+async def dm(e):   
+    usage = "**MODULE NAME** : **DM**\n\n command: \n\n .dm <username> <massage> \n .dm <reply to the use> <massage>"
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        flash = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        smex = await e.get_reply_message()
+        if len(flash) == 2:
+            user = str(flash[0])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in FlashX:
+                text = f"I can't Dm to @Flash_7h's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:            
+                 message = str(flash[1])
+                 await e.reply("🔸Message Done🔸")
+                 await e.client.send_message(g, message)
+                 await asyncio.sleep(0.3)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            if int(g) in FlashX:
+                text = f"I can't Dm to @Flash_7h's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                message = str(flash[0])
+                await e.reply("🔸 Message Delivered 🔸")
+                await e.client.send_message(g, message)
+                await asyncio.sleep(0.3)
+
+        else:
+             await e.reply(usage)
+
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid")) 
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid")) 
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid")) 
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid")) 
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.dmraid")) 
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.dmraid"))
+async def dmraid(e):
+    usage = "**MODULE NAME** : **DM RAID**\n\n command: \n\n .dmraid <count> <username> \n .dmraid <reply to the use> <massage>"
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        flash = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bitxh = await e.get_reply_message()
+        if len(flash) == 2:
+            user = str(flash[1])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in FlashX:
+                text = f"I can't raid on @Flash_7H's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                counter = int(flash[0])
+                await e.reply(" Dm Raid Strated Successfully ")
+                for _ in range(counter):
+                    reply = random.choice(RAID)
+                    caption = f"{reply}"
+                    async with e.client.action(g, "typing"):
+                        await e.client.send_message(g, caption)
+                        await asyncio.sleep(0.4)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            if int(g) in FlashX:
+                text = f"I can't raid on @Flash_7h's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                counter = int(flash[0])
+                await e.reply(" Dm Raid Strated Successfully!!🙂️")
+                for _ in range(counter):
+                    reply = random.choice(RAID)
+                    caption = f"{reply}"
+                    async with e.client.action(g, "typing"):
+                        await e.client.send_message(g, caption)
+                        await asyncio.sleep(0.3)
+        else:
+            await e.reply(usage)
             
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.dmspam"))
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **DM Spam**\n\nCommand:\n\n.dmspam <count> <username> <message to spam>\n\n.dmspam <count> <username> <reply to a message>\n\nCount must be a integer."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        flash = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 2)
+        Flashsexy = flash[1:]
+        smex = await e.get_reply_message()
+        if len(Flashsexy) == 2:
+            user = str(Flashsexy[0])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in FlashX:
+                text = f"I can't Dm To @Flash_7h's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                message = str(Flashsexy[1])
+                counter = int(flash[0])
+                await e.reply("Dm Spam Started️")
+                for _ in range(counter):
+                    async with e.client.action(g, "typing"):
+                        await e.client.send_message(g, message)
+                        await asyncio.sleep(0.3)
+        elif e.reply_to_msg_id and smex.media:
+            user = str(Flashsexy[0])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in FlashX:
+                text = f"I can't Dm To @Flash_7h's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:           
+                 counter = int(flasg[0])
+                 await e.reply(" Dm Spam Started️")
+                 for _ in range(counter):
+                     async with e.client.action(g, "document"):
+                        smex = await e.client.send_file(g, smex, caption=smex.text)
+                        await gifspam(e, smex) 
+                        await asyncio.sleep(0.3)  
+        elif e.reply_to_msg_id and smex.text:
+            message = smex.text
+            user = str(Flashsexy[0])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in FlashX:
+                text = f"I can't Dm To @Flash_7h's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SMEX_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                counter = int(flash[0])
+                await e.reply(" Dm Spam Started")
+                for _ in range(counter):
+                    async with e.client.action(g, "typing"):
+                        await e.client.send_message(g, message)
+                        await asyncio.sleep(0.3)
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+
+
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.setbio"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.setbio"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.setbio"))
@@ -1696,6 +2310,192 @@ async def setbio(e):
                 await print(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
+
+
+#INVITEALL
+
+
+async def get_chatinfo(event):
+    chat = event.pattern_match.group(1)
+    chat_info = None
+    if chat:
+        try:
+            chat = int(chat)
+        except ValueError:
+            pass
+    if not chat:
+        if event.reply_to_msg_id:
+            replied_msg = await event.get_reply_message()
+            if replied_msg.fwd_from and replied_msg.fwd_from.channel_id is not None:
+                chat = replied_msg.fwd_from.channel_id
+        else:
+            chat = event.chat_id
+    try:
+        chat_info = await event.client(GetFullChatRequest(chat))
+    except:
+        try:
+            chat_info = await event.client(GetFullChannelRequest(chat))
+        except ChannelInvalidError:
+            await event.reply("`Invalid channel/group`")
+            return None
+        except ChannelPrivateError:
+            await event.reply(
+                "`This is a private channel/group or I am banned from there`"
+            )
+            return None
+        except ChannelPublicGroupNaError:
+            await event.reply("`Channel or supergroup doesn't exist`")
+            return None
+        except (TypeError, ValueError):
+            await event.reply("`Invalid channel/group`")
+            return None
+    return chat_info
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
+async def get_users(event):
+    if event.sender_id in SMEX_USERS:
+        Nobi = event.text[11:]
+        flash = Nobi.lower()
+        restricted = ["@Chat_injector7h", "@Injector_7H", "@Xlr8Cheats_Chat"]
+        flax = await event.reply("__Inviting members __")
+        if flash in restricted:
+            await flax.edit("You can't Invite Members from there.")
+            await event.client.send_message(-1001731575931, "Sorry for inviting members from here.")
+            return
+        flashspam = await get_chatinfo(event)
+        chat = await event.get_chat()
+        if event.is_private:
+            return await .edit("`Sorry, Cant add users here`")
+        s = 0
+        f = 0
+        error = "None"
+        await flax.edit("**INVITING USERS !!**")
+        async for user in event.client.iter_participants(flashspam.full_chat.id):
+            try:
+                await event.client(
+                    InviteToChannelRequest(channel=chat, users=[user.id])
+                )
+                s += 1
+                await flax.edit(
+                    f"**INVITING USERS.. **\n\n**Invited :**  `{s}` users \n**Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+            )
+            except Exception as e:
+                error = str(e)
+                f += 1
+        return await flax.edit(
+        f"**INVITING FINISHED** \n\n**Invited :**  `{s}` users \n**Failed :**  `{f}` users."
+    )
+    
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid")) 
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid")) 
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid")) 
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid")) 
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.delayraid")) 
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@eag.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@gle.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@wal.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@aaa.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+@boy.on(events.NewMessage(incoming=True, pattern=r"\.delayraid"))
+async def delay(event):
+   usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗘𝗟𝗔𝗬𝗥𝗔𝗜𝗗\n\nCommand:\n\n.delayraid <delay> <count> <Username of User>\n\n.delayraid <delay> <count> <reply to a User>\n\nCount must be a integer."        
+   if event.sender_id in SMEX_USERS:
+         if event.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+         flash = "".join(event.text.split(maxsplit=1)[1:]).split(" ", 2)
+         if len(flash) == 3:
+             user = str(flash[2])
+             a = await event.client.get_entity(user)
+             e = a.id
+             if int(e) in FlashX:
+                    text = f"I can't raid on @Flash_7h's Owner"
+                    await event.reply(text, parse_mode=None, link_preview=None )
+             elif int(e) in SMEX_USERS:
+                    text = f"This guy is a sudo user."
+                    await event.reply(text, parse_mode=None, link_preview=None )
+             else:
+                 c = a.first_name
+                 username = f"[{c}](tg://user?id={e})"
+                 counter = int(flash[1])
+                 sleeptimet = sleeptimem = float(flash[0])
+                 for _ in range(counter):
+                      reply = random.choice(RAID)
+                      caption = f"{username} {reply}"
+                      async with event.client.action(event.chat_id, "typing"):
+                          await event.client.send_message(event.chat_id, caption)
+                          await asyncio.sleep(sleeptimem)
+         elif event.reply_to_msg_id:
+               a = await event.get_reply_message()
+               b = await event.client.get_entity(a.sender_id)
+               e = b.id
+               if int(e) in FlashX:
+                       text = f"I can't raid on @Flash_7h's Owner"
+                       await event.reply(text, parse_mode=None, link_preview=None )
+               elif int(e) in SMEX_USERS:
+                       text = f"This guy is a sudo user."
+                       await event.reply(text, parse_mode=None, link_preview=None )
+               else:
+                   c = b.first_name
+                   username = f"[{c}](tg://user?id={e})"
+                   sleeptimet = sleeptimem = float(flash[0])
+                   counter = int(flash[1])
+                   for _ in range(counter):
+                        reply = random.choice(RAID)
+                        caption = f"{username} {reply}"
+                        async with event.client.action(event.chat_id, "typing"):
+                             await event.client.send_message(event.chat_id, caption)
+                             await asyncio.sleep(sleeptimem)
+         else:
+            await event.reply(usage)
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1892,7 +2692,7 @@ async def help(e):
        text = "𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ☠️☠️\n►Pɪɴɢ\n►Rᴇsᴛᴀʀᴛ\n►Jᴏɪɴ\n►Lᴇᴀᴠᴇ\n►Pᴊᴏɪɴ\n►Bɪɢsᴘᴀᴍ\n►Rᴀɪᴅ\n\n\n\n       "
        await e.reply(text, parse_mode=None, link_preview=None )
 
-        
+ 
 
     
         
