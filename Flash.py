@@ -2394,7 +2394,7 @@ async def get_users(event):
         flashspam = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await .edit("`Sorry, Cant add users here`")
+            return await.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
